@@ -24,7 +24,7 @@ purple= (128, 0, 128)
 
 
 gDisplay=pygame.display.set_mode((display_width,display_height))
-pygame.display.set_caption('Nu Bai')
+pygame.display.set_caption('Flappy')
 clock=pygame.time.Clock()
 
 #Sound
@@ -36,7 +36,7 @@ sound=pygame.mixer.Sound('Mario.wav')
 #colisao = pygame.rect.colliderect(A,B)
 
 num=random.randrange(0,9)
-carImg=pygame.image.load('Nubai.png')
+carImg=pygame.image.load('Flap.png')
 
 def cena_dodge(count):
     font2 = pygame.font.SysFont(None,75)
